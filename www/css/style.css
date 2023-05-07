@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap'); /* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #212A3E;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background:#9BA4B5;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron h2 {
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.box h2 {
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    padding: 0;
+    margin: 0;
+}
+
+.box-img {
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info {
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: info;
+    justify-content: center;
+}
+  
+.info > div {
+font-family: Arial, Helvetica, sans-serif;
+margin: 28px;
+width: 40%;
+}
+
+.info > div > ul {
+/* margin: 0px; */
+margin-left: -40px;
+}
+
+.info > div > ul > li {
+padding: 8px;
+margin: 0px;
+list-style-type: none;
+}
+
+.info > div > ul > li > hr {
+margin-top: 16px;
+}
+
+footer {
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 100px;
+    transition: color .4s ease;
+    margin: 0 30px 0 30px;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
